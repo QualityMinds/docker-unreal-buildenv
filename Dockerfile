@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y  \
 	tzdata \
 	wget \
 	&& rm -rf /var/lib/apt/lists/* \
-	useradd -m compiler
+	&& useradd -m compiler
