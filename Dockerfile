@@ -1,4 +1,4 @@
-FROM: ubuntu:latest
+FROM ubuntu:latest
 
 MAINTAINER Johann Förster <johann.foerster@qualityminds.de>
 
