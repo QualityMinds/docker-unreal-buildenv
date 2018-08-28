@@ -12,3 +12,5 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 	&& rm -rf /var/lib/apt/lists/* 
 
 RUN useradd -m compiler
+
+RUN chmod -R 777 /tmp/
