@@ -11,3 +11,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
 RUN useradd -m --shell /bin/bash compiler && \
     echo "compiler ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/compiler && \
     chmod 0440 /etc/sudoers.d/compiler
+
+USER compiler
+
+RUN whoami
